@@ -1,10 +1,9 @@
 package gsc.projects.basicdomains.dtos;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+
+
 
 @Getter
 @Setter
@@ -15,6 +14,7 @@ public class OrderEvent {
     private String message;
     private String status;
     private Order order;
+
 
     @Override
     public String toString() {
