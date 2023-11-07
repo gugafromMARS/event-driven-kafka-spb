@@ -14,7 +14,7 @@ Welcome, this is a simple exercise for pratice Apache Kafka with microservices, 
 Here are some technologys used on this project.
 
 * Java version 17
-* RabbitMQ
+* Apache Kafka
 
 ## Services
 
