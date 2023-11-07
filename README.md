@@ -1,14 +1,12 @@
 # event-driven-kafka-spb
 
-![Logo](https://github.com/gugafromMARS/sb-rabbitmq-mcs/assets/116969206/0e81fe59-45cf-43b3-bb5d-14f75813b434)
+![Logo](https://github.com/gugafromMARS/event-driven-kafka-spb/assets/116969206/ac5ddbc5-ee5c-47e2-b246-6b598420efd0)
 
-
-Welcome, this is a simple exercise for pratice Rabbitmq with exchange in microservices, the theme of exercise is orders are sent to exchange and exchange choose with the routing keys for which queue is going to send email or stock service.
-
+Welcome, this is a simple exercise for pratice Apache Kafka with microservices, the theme of exercise is orders are sent from kafka producer (order service) to Kafka broker with choosed topic for stock and email services consume the order event.
 
 ## Architecture
 
-![ArchitectureImg](https://github.com/gugafromMARS/sb-rabbitmq-mcs/assets/116969206/10918db4-042d-4178-b261-0d0d9ca08827)
+![ArchitectureImg](https://github.com/gugafromMARS/event-driven-kafka-spb/assets/116969206/9e26993c-a223-4404-a88b-d88f9ae4b818)
 
 
 ## Technology
